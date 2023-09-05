@@ -36,18 +36,13 @@ export default function About({}: Props) {
 
             <div className='space-y-10 px-0 md:px-10'>
                 <h1 className='text-4xl font-semibold'>Here is a
-                <span className='underline decoration-[#F7AB0A]/50'> little  </span> background
+                <span className='underline decoration-[#005a60]/50'> little  </span> background
                 </h1>
                 <p className='text-base '>
-                Lorem Ipsum is simply dummy text 
-                of the printing and typesetting industry. Lorem 
-                Ipsum has been the industry's standard dummy text 
-                ever since the 1500s, when an unknown printer took a
-                 galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
-                 into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s wit
-                 h the release of Letraset shee
-                 ts containing Lorem Ipsum passages, and more recently with desktop publishing so
-                 ftware like Aldus PageMaker including versions of Lorem Ipsum.
+                Your end-to-end partner for AI-powered transformations, from ideation to implementation and beyond. 
+                We're not just automation experts; we're your dedicated team, assisting startups and enterprises in crafting groundbreaking AI solutions that streamline operations and fuel progress. 
+                Guided by our founder's vision, we navigate the entire journey, transforming your concepts into practical, efficiency-boosting solutions. 
+                With a wealth of experience spanning various sectors, we're here to construct an innovative product that propels your company towards enduring success.
                 </p>
             </div>
     

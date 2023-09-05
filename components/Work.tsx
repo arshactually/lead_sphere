@@ -11,19 +11,20 @@ export default function Work({}: Props) {
 
   return (
     <motion.div 
-    className=' h-screen flex relative overflow-hidden flex-col text-left md:flow-row 
-    max-w-full px1- justify-evenly -mx-auto items-center'>
+    className=' h-screen flex relative overflow-hidden flex-col text-center md:text-left md:flow-row 
+    max-w-full px1- justify-evenly -mx-auto items-center overflow-x-hidden  '>
         <h3 className='absolute top-24 uppercase tracking-[30px] text-gray-500 text-2xl'
         >Services We Provide</h3>
 
 
         <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x 
-        snap-mandatory  scrollbar-track-gray-400
-         scrollbar-thumb-[#F7AB0A]/80'>
+        snap-mandatory overflow-y-hidden scrollbar scrollbar-track-gray-400
+         scrollbar-thumb-[#005a60]/80'>
+
             <WorkCard />
             <WorkCard />
             <WorkCard />
-            <WorkCard />
+            
 
 
 

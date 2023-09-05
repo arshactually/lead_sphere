@@ -1,4 +1,6 @@
 import About from '@/components/About';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 import Header from '@/components/Header'
 import Hero from '@/components/Hero';
 import Work from '@/components/Work';
@@ -28,12 +30,24 @@ export default function Home() {
 
     </section>
 
-    {/* Contact us */}
+    
 
     {/* Work */}
-    <section id="work" className='snap-center'>
+    <section id="work" className='snap-center '>
       <Work />
     </section>
+    {/* Contact us */}
+    <section id='contact' className='snap-start'>
+      <Contact />
+
+    </section>
+
+    {/* footer */}
+    <section id='footer' className='snap-end'>
+      <Footer />
+    </section>
+
+
 
   
 

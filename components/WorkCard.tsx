@@ -7,7 +7,7 @@ export default function WorkCard({}: Props) {
   return (
     <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
     
-w-[500px] h-[900px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 '>
+w-[500px] h-[900px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
 
         <motion.div 
         initial={{ y:-100,
@@ -20,8 +20,8 @@ w-[500px] h-[900px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100
         src="" alt="" />
 
         <div className='px-0 md:px-10'>
-            <h4 className='text-4xl font-light'>CEO of ACTVision</h4>
-            <p className='font-bold text-2xl mt-1'>ACTVision</p>
+            <h4 className='text-4xl font-light'>Chatbot Integration</h4>
+            <p className='font-bold text-2xl mt-1'>AI- Automation</p>
             <div className='flex space-x-2 my-2'>
                 
 

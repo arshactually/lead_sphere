@@ -26,7 +26,7 @@ function Header() {
     
     
     className=" flex items-start justify-between text-[#FFFF]">
-        <Link href="/" className="menuList">    <Image
+        <Link href="#hero" className="menuList">    <Image
         src="https://i.postimg.cc/Y2vdvFwy/icon.png"
         alt="Logo"
         width={300}
@@ -69,10 +69,13 @@ function Header() {
         className="flex flex-row items-center text-gray-300 cursor-pointer"
 
     >
-
-        <button className="contactButton uppercase hidden md:inline-flex text-sm text-black-400">
-         Contact us
-        </button>
+        <Link href="#contact">
+            <button className="contactButton uppercase hidden md:inline-flex text-sm text-black-400">
+                Contact us
+            </button>
+        
+        </Link>
+        
 
 
     </motion.div>
