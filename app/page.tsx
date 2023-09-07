@@ -5,6 +5,7 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero';
 import Work from '@/components/Work';
 import Image from 'next/image'
+import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -46,6 +47,11 @@ export default function Home() {
     <section id='footer' className='snap-end'>
       <Footer />
     </section>
+
+    <div>
+        <Script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></Script>
+        <Script src="https://mediafiles.botpress.cloud/5a418cc2-b33f-43ca-a21e-11478d8644ee/webchat/config.js" defer></Script>
+    </div>
 
 
 

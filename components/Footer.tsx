@@ -33,10 +33,7 @@ function Footer({}: Props) {
 
     </div>
 
-    <div>
-        <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
-        <script src="https://mediafiles.botpress.cloud/5a418cc2-b33f-43ca-a21e-11478d8644ee/webchat/config.js" defer></script>
-    </div>
+    
 
 
     <div className=' font-semibold px-10'>
