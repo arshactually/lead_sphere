@@ -11,7 +11,7 @@
     .contactButton
     {
         @apply px-6 py-2 bg-white border border-[#242424] rounded-full uppercase text-sm tracking-widest
-        text-gray-500 transition-all hover:border-[#0000]/40 hover:text-[#FFFF]/40 hover:bg-[#242424]
+        text-gray-500 transition-all hover:border-[#0000]/40 hover:text-[#FFFF] hover:bg-[#005a60]
     }
     .contactInput {
 
