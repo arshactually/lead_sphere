@@ -10,7 +10,7 @@ export default function Hero({}: Props) {
         words: [
             "LeadSphere Automation",
             "Here-to-Automate-your-Business.tsx",
-            "<We-Use-AI/>",
+            "<Bringing-in-Leads-Like-Waves~/>",
         ],
         loop:true,
         delaySpeed:2000,

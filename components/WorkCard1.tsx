@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 type Props = {};
 
-export default function WorkCard({}: Props) {
+export default function WorkCard1({}: Props) {
   return (
     <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] h-[900px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
       <motion.img
@@ -12,7 +12,7 @@ export default function WorkCard({}: Props) {
         transition={{ duration: 1.2 }}
         viewport={{ once: true }}
         className='relative rounded-full h-32 w-32 mx-auto object-cover'
-        src='https://i.postimg.cc/Y2vdvFwy/icon.png' // Replace with your image source URL
+        src='https://i.postimg.cc/dtrt5RNX/aibot.png' // Replace with your image source URL
         alt='alternative-text' // Replace with your alternative text
       />
 
@@ -22,7 +22,7 @@ export default function WorkCard({}: Props) {
         <div className='flex space-x-2 my-2'>
           {/* Content goes here */}
         </div>
-        <p className='uppercase py-5 text-gray-500'>Started work.. - Ended...</p>
+        <p className='uppercase py-5 text-gray-500'></p>
 
         <ul className='list-disc space-y-4 ml-5 text-lg'>
           <li>Summary points</li>

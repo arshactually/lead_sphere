@@ -49,9 +49,11 @@ export default function Home() {
     </section>
 
     <div>
-        <Script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></Script>
-        <Script src="https://mediafiles.botpress.cloud/5a418cc2-b33f-43ca-a21e-11478d8644ee/webchat/config.js" defer></Script>
+        <Script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></Script>
+        <Script src="https://mediafiles.botpress.cloud/3b2d1eb1-8349-43ba-ab8e-7b4facaab0b1/webchat/config.js" defer></Script>
+
     </div>
+
 
 
 
@@ -62,3 +64,66 @@ export default function Home() {
  
   );
 }
+
+// import {defineField, defineType} from 'sanity'
+
+// export default defineType({
+  // name: 'pageInfor',
+  // title: 'PageInfo',
+  // type: 'document',
+  // fields: [
+//     {
+//       name:"name",
+//       title:"Name",
+//       type:"string",
+//     },
+//     {
+//       name:"role",
+//       title:"Role",
+//       type:"string",
+//     },
+//     {
+      // name:"heroImage",
+      // title:"Image",
+      // type:"image",
+      // options: {
+      //   hotspot: true,
+//       }
+//     },
+//     {
+      // name:"backgroundInformation",
+      // title:"BackgroundInformation",
+      // type:"string",
+//     },
+//     {
+      // name:"profilePic",
+      // title:"ProfilePic",
+      // type:"image",
+      // options: {
+      //   hotspot: true,
+      // }
+//     },
+//     {
+//       name:"phoneNumber",
+//       title:"PhoneNumber",
+//       type:"string",
+//     },
+//     {
+//       name:"email",
+//       title:"Email",
+//       type:"string",
+//     },
+//     {
+      // name:"address",
+      // title:"Address",
+      // type:"string",
+//     },
+//     {
+      // name:"socials",
+      // title:"Socials",
+      // type:"array",
+      // of: [{  type : "reference", to: {type: "socials"}}],
+//     },
+
+//   ]
+// })

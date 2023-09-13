@@ -1,7 +1,9 @@
 "use client"
 import React from 'react';
 import { motion } from "framer-motion"
-import WorkCard from './WorkCard';
+import WorkCard1 from './WorkCard1';
+import WorkCard2 from './WorkCard2';
+import WorkCard3 from './WorkCard3';
 
 type Props = {}
 
@@ -21,9 +23,9 @@ export default function Work({}: Props) {
         snap-mandatory overflow-y-hidden scrollbar scrollbar-track-gray-400
          scrollbar-thumb-[#005a60]/80'>
 
-            <WorkCard />
-            <WorkCard />
-            <WorkCard />
+            <WorkCard1 />
+            <WorkCard2 />
+            <WorkCard3 />
             
 
 
