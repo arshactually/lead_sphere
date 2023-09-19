@@ -24,7 +24,7 @@ export default function WorkCard2({}: Props) {
         </div>
         <p className='uppercase py-5 text-gray-500'></p>
 
-        <ul className='list-disc space-y-4 ml-5 text-lg'>
+        <ul className='list-disc space-y-4 ml-5 text-lg max-[480px]:w-[100vw] max-[480px]:px-[10vw]'>
           <li>Streamline Operations: Our SaaS solutions optimize and automate your business processes, reducing manual effort and boosting efficiency.</li>
           <li>Customized Solutions: Tailored to your specific needs, our SaaS tools provide personalized solutions to enhance your operations</li>
           <li>Scale with Confidence: Our SaaS offerings are designed to grow with your business, ensuring long-term adaptability and success.</li>

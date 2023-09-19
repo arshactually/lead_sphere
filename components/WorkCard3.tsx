@@ -24,7 +24,7 @@ export default function WorkCard2({}: Props) {
         </div>
         <p className='uppercase py-5 text-gray-500'></p>
 
-        <ul className='list-disc space-y-4 ml-5 text-lg'>
+        <ul className='list-disc space-y-4 ml-5 text-lg max-[480px]:w-[100vw] max-[480px]:px-[10vw]'>
           <li>Boost Online Presence: Our Social Media Marketing (SMM) strategies enhance your brand&apos;s visibility and engagement across popular social media platforms.</li>
           <li>Targeted Campaigns: We tailor SMM campaigns to reach your ideal audience, driving traffic, leads, and conversions effectively.</li>
           <li>Data-Driven Results: Our SMM approach is backed by data analytics, ensuring that every campaign is optimized for maximum impact and ROI.</li>

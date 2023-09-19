@@ -15,7 +15,7 @@ export default function Work({}: Props) {
     <motion.div 
     className=' h-screen flex relative overflow-hidden flex-col text-center md:text-left md:flow-row 
     max-w-full px1- justify-evenly -mx-auto items-center overflow-x-hidden  '>
-        <h3 className='absolute top-24 uppercase tracking-[30px] text-gray-500 text-2xl'
+        <h3 className='absolute top-24 uppercase tracking-[30px] text-gray-500 text-2xl max-[480px]:tracking-[3px]'
         >Services We Provide</h3>
 
 

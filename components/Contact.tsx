@@ -96,28 +96,28 @@ function Contact({}: Props) {
       </h3>
 
       <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center">
+        <h4 className="max-[480px]:hidden text-4xl font-semibold text-center">
           We&apos;ve got just what you need.{" "}
-          <span className="decoration-[#005a60]/50 underline">Let&apos;s Talk.</span>
+          <span className="max-[480px]:hidden decoration-[#005a60]/50 underline">Let&apos;s Talk.</span>
         </h4>
 
         <div className="text-[#ffff] flex items-center space-x-5 justify-center">
           <PhoneIcon className="text-[#005a60] h-7 w-7 animate-pulse" />
-          <p className="text-2xl">+4915750125829</p>
+          <p className="max-[480px]:text-xl text-2xl">+4915750125829</p>
         </div>
         <div className="text-[#ffff] flex items-center space-x-5 justify-center">
           <EnvelopeIcon className="text-[#005a60] h-7 w-7 animate-pulse" />
-          <p className="text-2xl">leadsphere.business@gmail.com</p>
+          <p className="max-[480px]:text-xl text-2xl">leadsphere.business@gmail.com</p>
         </div>
         <div className="text-[#ffff] flex items-center space-x-5 justify-center">
           <MapPinIcon className="text-[#005a60] h-7 w-7 animate-pulse" />
-          <p className="text-2xl">Dresden, Germany</p>
+          <p className="max-[480px]:text-xl text-2xl">Dresden, Germany</p>
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-fit mx-auto"
+          className="flex flex-col space-y-2 w-fit mx-auto max-[480px]:w-[80vw]"
         >
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 max-[480px]:flex-col max-[480px]:space-x-0 max-[480px]:space-y-2">
             <input
               {...register('name')}
               placeholder="Name"

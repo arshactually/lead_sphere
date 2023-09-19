@@ -24,7 +24,7 @@ export default function WorkCard1({}: Props) {
         </div>
         <p className='uppercase py-5 text-gray-500'></p>
 
-        <ul className='list-disc space-y-4 ml-5 text-lg'>
+        <ul className='list-disc space-y-4 ml-5 text-lg max-[480px]:w-[100vw] max-[480px]:px-[10vw]'>
           <li>Enhanced Customer Interaction: AI chatbots provide efficient and personalized customer support, improving user experiences and satisfaction.</li>
           <li>24/7 Availability: Chatbots are available round the clock, ensuring immediate responses to customer inquiries, even outside business hours</li>
           <li>Data-Driven Insights: AI bots collect and analyze customer interactions, offering valuable insights to refine your strategies and optimize user interactions.</li>

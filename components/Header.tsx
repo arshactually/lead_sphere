@@ -7,7 +7,7 @@ import { SocialIcon } from "react-social-icons";
 import  Link  from "next/link";
 
 function Header() {
-    return <header className=" sticky top-0 flex items-start justify-between p-5 max-w-7xl mx-auto z-20 xl:items-center">
+    return <header className=" sticky top-0 flex items-start justify-between p-5 max-w-7xl mx-auto z-20 xl:items-center max-[480px]:flex-col">
         
     <motion.div 
             initial={{
@@ -39,7 +39,7 @@ function Header() {
 
     
 
-    <div className='pt-5'>
+    <div className='max-[480px]:hidden pt-5'>
         <Link href="#about">
         <button className='heroButton'>About</button>
         </Link>
