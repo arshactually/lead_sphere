@@ -7,7 +7,7 @@ import { SocialIcon } from "react-social-icons";
 import  Link  from "next/link";
 
 function Header() {
-    return <header className=" sticky top-0 flex items-start justify-between p-5 max-w-7xl mx-auto z-20 xl:items-center max-[480px]:flex-col">
+    return <header className=" md:sticky top-0 flex items-start justify-between p-5 max-w-7xl mx-auto z-20 xl:items-center max-[480px]:flex-col">
         
     <motion.div 
             initial={{

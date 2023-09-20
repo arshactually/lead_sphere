@@ -14,22 +14,17 @@ function Footer({}: Props) {
             bgColor='transparent'
         />
         <SocialIcon
-            url='https://www.instagram.com/arshactually/'
+            url='https://www.instagram.com/leadsphere.ai/'
             fgColor='gray'
             bgColor='transparent'
         />
         <SocialIcon
-            url='https://github.com/arshactually'
+            url='https://twitter.com/LeadSphereai'
             fgColor='gray'
             bgColor='transparent'
         />
+
         
-        <SocialIcon
-            className='cursor-pointer'
-            network='email'
-            fgColor='gray'
-            bgColor='transparent'
-        />
 
     </div>
 
