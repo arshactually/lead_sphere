@@ -101,7 +101,7 @@ function Contact({}: Props) {
           <span className="max-[480px]:hidden decoration-[#005a60]/50 underline">Let&apos;s Talk.</span>
         </h4>
 
-        <div className="text-[#ffff] flex items-center space-x-5 justify-center">
+        <div className="max-[480px]:hidden text-[#ffff] flex items-center space-x-5 justify-center">
           <PhoneIcon className="text-[#005a60] h-7 w-7 animate-pulse" />
           <p className="max-[480px]:text-xl text-2xl">+4915750125829</p>
         </div>

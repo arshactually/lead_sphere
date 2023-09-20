@@ -26,7 +26,7 @@ export default function Home() {
     </section>
 
     {/* About */}
-    <section id="about" className='snap-center'>
+    <section id="about" className='md:snap-center'>
       <About />
 
     </section>
@@ -34,17 +34,17 @@ export default function Home() {
     
 
     {/* Work */}
-    <section id="work" className='snap-center '>
+    <section id="work" className='md:snap-center '>
       <Work />
     </section>
     {/* Contact us */}
-    <section id='contact' className='snap-start'>
+    <section id='contact' className='md:snap-start'>
       <Contact />
 
     </section>
 
     {/* footer */}
-    <section id='footer' className='snap-end'>
+    <section id='footer' className='md:snap-end'>
       <Footer />
     </section>
 
