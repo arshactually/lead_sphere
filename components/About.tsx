@@ -81,16 +81,19 @@ export default function About({}: Props) {
           duration: 1.2,
         }}
         src="https://i.pinimg.com/564x/e1/b3/01/e1b3016a1a46ff49dc28661fc5da6970.jpg"
-        className="-md-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[200px] xl:h-[200px]"
+        className="-md-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[200px] xl:h-[200px] max-[480px]:w-[150px] max-[480px]:h-[150px]"
         alt="Image Description"
+        
       />
 
+
+
       <div className="space-y-10 px-0 md:px-10">
-        <h1 className="text-4xl font-semibold">
+        <h1 className="text-4xl font-semibold max-[480px]:text-lg ">
           Here is a
           <span className="underline decoration-[#005a60]/50"> little </span> background
         </h1>
-        <p className="text-base ">
+        <p className="text-base max-[480px]:text-sm">
           Your end-to-end partner for AI-powered transformations, from ideation to implementation and beyond.
           We&apos;re not just automation experts; we&apos;re your dedicated team, assisting startups and enterprises in crafting groundbreaking AI solutions that streamline operations and fuel progress.
           Guided by our founder&apos;s vision, we navigate the entire journey, transforming your concepts into practical, efficiency-boosting solutions.
